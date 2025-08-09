@@ -20,7 +20,7 @@ namespace Company.Function
           string name)
         {
             var returnValue = string.IsNullOrEmpty(name)
-                ? "Hello, Globe."
+                ? "Hello, India."
                 : $"Hello, {name}.";
  
             _logger.LogInformation($"C# HTTP trigger function processed a request for {returnValue}.");
